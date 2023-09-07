@@ -72,10 +72,11 @@ namespace WindowsFormsApp1
 
             }
         }
-
-        private void label5_Click(object sender, EventArgs e)
+        private void btnRegresar_Click(object sender, EventArgs e)
         {
-
+            Form1 registerForm = new Form1();
+            registerForm.Show();
+            this.Hide();
         }
     }
 }
